@@ -33,7 +33,7 @@ And spans between 01/12/2010 and 09/12/2011 (13 months) for a UK-based, register
 - Created "Sale" calculated column from Quantity * Unit Price columns
 - Grouped customers based on last transaction date Invoicedate (Recency), unique InvoiceNo (Frequency), and Sale (Monetary)
 - Rename Columns From Invoicedate, InvoiceNo, and Sales to Recency, Frequency, and Monetary.
-- Created Quantile Q1(25%), Q2(50% or median), and Q3(75%), and assigned a "score" (1-4) based on where each customer metric falls within.
+- Created Quantile Q1(25%), Q2(50% or median), and Q3(75%), and assigned a "score" (1-4) based on where each customer metric falls within (Lower Recency is good).
 - Created the SumScore Column by aggregating Rscore, Fscore, and Mscore, as well as the RFMCode column(Concatenations of all scores)
 - Create a label function to assign labels based on the SumScore with less than 3 (Lost), less than 6 (At risk), less than 8 (Moderate), less than 10 (Loyal), and 12 (champion), and create a "segment" column from the labels
 - Extract the segment column and merge (joins) it with the old customer data, and also concatenate old customers and new customers to get the distribution "picture."
