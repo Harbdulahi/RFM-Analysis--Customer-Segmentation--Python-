@@ -55,3 +55,6 @@ Feed the data (result) into a CRM and send Marketing message to each segment.
 - For At Risk offer them coupon they can use that has an expiry time. And send marketing message to them occasionally to promote them to upper tiers.
 
 The overall goal of RFM is to understand customer distribution and promote them from lowest tier to the highest tier
+
+
+[RFM Video](https://youtu.be/UM9QzzjTGUc?si=-ECNSi5XhbaqiDJs)
